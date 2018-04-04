@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import TextFieldExample from './TextFieldExample.js'
+//import TextFieldExample from './TextFieldExample.js'
+import FetchData from './FetchData.js'
 
 class App extends Component {
   render() {
@@ -10,11 +11,14 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
 
-          <p className="App-intro">
-          Enter in a patient e-mail to retrieve associated heart rate measurements:
-          </p>
+        <p className="App-intro">
+        Enter in a patient e-mail to retrieve associated heart rate measurements:
+        </p>
 
-          <TextFieldExample />
+        <FetchData />
+
+
+
 
 
       </div>
